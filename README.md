@@ -1,1 +1,1 @@
-# -Sign_Language_to_Speech
+# Sign_Language_to_Speech
