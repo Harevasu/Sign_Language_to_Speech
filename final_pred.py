@@ -56,7 +56,45 @@ class Application:
         self.root.title("Sign Language To Text Conversion")
         self.root.protocol('WM_DELETE_WINDOW', self.destructor)
         self.root.geometry("1300x700")
+        
 
+
+
+
+
+        
+        # ######
+        # self.root.configure(bg="#8eddab")  # 🌑 Dark background
+        # header_label = tk.Label(
+        #     self.root,
+        #     text="Sign Language to Speech",
+        #     font=("Arial", 20, "bold"),
+        #     fg="white",
+        #     bg="#1e1e1e"
+        # )
+        # header_label.pack(pady=10)               
+        # # 🔘 Frame for Buttons
+        # btn_frame = tk.Frame(self.root, bg="#64b9e4")
+        # btn_frame.place(x=650, y=50)
+        # from PIL import Image, ImageTk, ImageResampling 
+        # bg_image = Image.open("image.png")  # Use your image file name here
+        #  # add this if not already
+
+        # bg_image = bg_image.resize((1300, 700), Image.Resampling.LANCZOS)
+        # self.bg_photo = ImageTk.PhotoImage(bg_image)
+                
+        # self.exit_btn = tk.Button(
+        #     btn_frame, text="Exit", command=self.destructor,
+        #     bg="#f44336", fg="white", font=("Arial", 14)
+        # )
+        # self.exit_btn.grid(row=0, column=1, padx=10, pady=10)
+        # ######
+
+
+
+
+
+        
         self.panel = tk.Label(self.root)
         self.panel.place(x=100, y=3, width=480, height=640)
 
